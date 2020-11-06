@@ -1,3 +1,5 @@
+@media (max-width:1366px) {
+
 @font-face {
     font-family: 'RunaroundKidDemoRegular-Rx33';
     src: url('./fontes/RunaroundKidDemoRegular-Rx33.otf');/*Para os demais navegadores*/
@@ -518,6 +520,10 @@ article {
     box-shadow: 2px 2px 10px;
 }
 
+#local2{
+    display: none;
+}
+
 .conteudo {
     width: 888.3px;
     height: 320px;
@@ -610,6 +616,8 @@ footer {
     margin: 23px 0px 0px 25px;
 }
 
+}
+
 
 /* RESPONSIVO */
 
@@ -618,22 +626,7 @@ footer {
 
 
 @media (max-width:600px) {
-    @font-face {
-        font-family: 'RunaroundKidDemoRegular-Rx33';
-        src: url('./fontes/RunaroundKidDemoRegular-Rx33.otf');/*Para os demais navegadores*/
-        
-        font-weight: normal;
-        font-style: normal;
-    }
-    
-    @font-face {
-        font-family: 'Global-mL1qm';
-        src: url('./fontes/Global-mL1qm.ttf');/*Para os demais navegadores*/
-        
-        font-weight: normal;
-        font-style: normal;
-    }
-    
+
     a:hover {
         color: rgb(223, 33, 33);
         text-shadow: 5px 5px 5px black;
@@ -738,7 +731,7 @@ footer {
     /* HEADER - CABEÇALHO */
     
     header {
-        height: 200px;
+        height: 300px;
         width: 100%;
         background-color: rgb(167, 105, 46);
         margin-bottom: 20px;
@@ -757,7 +750,7 @@ footer {
         width: 50%;
         height: 90%;
         display: block;
-        margin: auto;
+        margin: 1% 0% 0% 80%;
         border-radius: 15px;
         margin-bottom: 0px;
     }
@@ -771,15 +764,16 @@ footer {
     
     #logo>h1 {
         color: rgb(223, 33, 33);
+        margin-left: 68%;
     }
     
     
     
     nav {
-        width: 600px;
+        width: 550px;
         height: 100px;
         float: right;
-        margin: 50px 0px 0px 0px;
+        margin: 90px 0px 0px 0px;
         font-size: 30px;
     }
     
@@ -918,7 +912,7 @@ footer {
     /* MAIN - PRINCIPAL */
     
     main {
-        height: 1200px;
+        height: 1420px;
         width: 100%;
         background-color: rgb(253, 231, 173);
         margin-bottom: 20px;
@@ -934,6 +928,7 @@ footer {
         background-color: rgb(253, 231, 173);
         margin: 0px 1%;
         float: left;
+        display: none;
     }
     
     * {
@@ -941,113 +936,11 @@ footer {
     }
     
     
-    /* Slideshow container */
-    
-    .slideshow-container {
-        width: 1092px;
-        position: relative;
-        margin: auto;
-    }
-    
-    
-    /* Hide the images by default */
-    
-    .mySlides {
-        display: none;
-    }
-    
-    
-    /* Next & previous buttons */
-    
-    .prev,
-    .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-    }
-    
-    
-    /* Position the "next button" to the right */
-    
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-    
-    
-    /* On hover, add a black background color with a little bit see-through */
-    
-    .prev:hover,
-    .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-    
-    
-    /* The dots/bullets/indicators */
-    
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline;
-        transition: background-color 0.6s ease;
-    }
-    
-    .active,
-    .dot:hover {
-        background-color: #717171;
-    }
-    
-    
-    /* Fading animation */
-    
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-    
-    .fade>img {
-        border-radius: 15px;
-        margin-top: 10px;
-    }
-    
-    @-webkit-keyframes fade {
-        from {
-            opacity: .4
-        }
-        to {
-            opacity: 1
-        }
-    }
-    
-    @keyframes fade {
-        from {
-            opacity: .4
-        }
-        to {
-            opacity: 1
-        }
-    }
-    
-    
+   
     /* ASIDE - BARRA LATERAL */
     
     aside {
-        width: 28%;
+        width: 98%;
         height: 680px;
         margin: 10px 1%;
         float: left;
@@ -1094,18 +987,28 @@ footer {
     /* ARTICLE */
     
     article {
-        width: 68%;
+        width: 98%;
         height: 700px;
         background-color: rgb(253, 231, 173);
         margin: 0px 1%;
         float: left;
-    }
-    
-    #local {
         border-radius: 15px;
     }
     
+    #local {
+        display: none;
+    }
+    
     #local:hover {
+        display: none;
+    }
+
+    #local2 {
+        border-radius: 15px;
+        display:initial;
+    }
+    
+    #local2:hover {
         box-shadow: 2px 2px 10px;
     }
     
@@ -1133,6 +1036,7 @@ footer {
     .conteudo>h2 {
         line-height: 50px;
         margin-left: 15px;
+        margin-bottom: 0%;
     }
     
     .conteudo>p {
@@ -1143,16 +1047,17 @@ footer {
     }
     
     #conteudo2>img {
-        width: 20%;
-        float: right;
-        margin: 50px 30px;
+        width: 49%;
+        float: left;
+        margin: 0% 0% 0% 23%;
+        border-radius: 5px;
     }
     
     
     /* FOOTER - RODAPÉ */
     
     footer {
-        height: 200px;
+        height: 555px;
         width: 100%;
         background-color: rgb(167, 105, 46);
         border-radius: 20px;
@@ -1160,11 +1065,12 @@ footer {
     }
     
     .rodape {
-        width: 32%;
+        width: 98%;
         height: 150px;
         background-color: rgb(68, 66, 67);
         float: left;
         margin: 25px .6%;
+        margin-bottom: 3px;
         text-align: center;
         color: white;
         border-radius: 20px;
@@ -1180,8 +1086,9 @@ footer {
     }
     
     #esquerdo>h2 {
-        font-size: 40px;
+        font-size: 30px;
         text-align: left;
+        margin-left: 195px;
     }
     
     
@@ -1192,9 +1099,9 @@ footer {
     }
     
     #direito>a>img {
-        width: 25%;
+        width: 23%;
         float: left;
-        margin: 23px 0px 0px 25px;
+        margin: 10px 0px 0px 45px;
     }
 
 }
