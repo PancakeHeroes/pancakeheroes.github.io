@@ -625,7 +625,7 @@ footer {
 
 
 
-@media (max-width:600px) {
+@media (max-width:720px) {
 
     a:hover {
         color: rgb(223, 33, 33);
@@ -770,7 +770,7 @@ footer {
     
     
     nav {
-        width: 550px;
+        width: 600px;
         height: 100px;
         float: right;
         margin: 90px 0px 0px 0px;
@@ -1047,9 +1047,9 @@ footer {
     }
     
     #conteudo2>img {
-        width: 49%;
+        width: 40%;
         float: left;
-        margin: 0% 0% 0% 23%;
+        margin: 0% 0% 0% 27%;
         border-radius: 5px;
     }
     
@@ -1086,9 +1086,10 @@ footer {
     }
     
     #esquerdo>h2 {
-        font-size: 30px;
+        font-size: 35px;
         text-align: left;
         margin-left: 195px;
+        margin-top: 7%;
     }
     
     
@@ -1099,9 +1100,9 @@ footer {
     }
     
     #direito>a>img {
-        width: 23%;
+        width: 19%;
         float: left;
-        margin: 10px 0px 0px 45px;
+        margin: 10px 0px 0px 67px;
     }
 
 }
