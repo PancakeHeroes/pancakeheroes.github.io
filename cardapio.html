@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardapio.css">
+    <title>PANCAKE HEROES</title>
+</head>
+
+<body>
+
+    <div id="barrasuperior">
+        <div id="localizacaosuperior">
+            <img id="gps" src="./imagens/gps.png" alt="">
+            <p>rua Flor da Redenção, n° 29</p>
+        </div>
+
+        <div id="contatosuperior">
+            <img id="telefone" src="./imagens/telefone.png" alt="">
+            <p>(11)97834-1190</p>
+        </div>
+
+        <div id="horariofuncionamento">
+            <img id="relogio" src="./imagens/relogio.jpeg" alt="">
+            <p>ter - qui: 11h45 à 22h00 ; sex - dom: 11h45 à 23h00</p>
+        </div>
+
+        <div id="redessociaissuperior">
+            <div id="face">
+                <a href="https://www.facebook.com/Pancake-Heroes-102611384897148/" target="_blank">
+                    <img src="./imagens/facebook.svg" alt="">
+                </a>
+            </div>
+        </div>    
+
+
+            <div id="twitter">
+                <a href="https://twitter.com/HeroesPancake" target="_blank">
+                    <img src="./imagens/twitter.svg" alt="">
+                </a>
+            </div>
+
+            <div id="insta">
+                <a href="https://www.instagram.com/pancakeheroes/" target="_blank">
+                    <img src="./imagens/instagram.svg" alt="">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <header>
+        <a href="">
+        <div id="logo">
+            <img src="./imagens/logo_final2.png" alt="">
+            <h1>Pancake Heroes</h1>
+        </div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</li>
+                </a>
+                <li><a href="./cardapio.html">Cardapio</li>
+                </a>
+                <li><iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                    <a href="#abrirModal">Contate-nos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MODAL -->
+    <div id="abrirModal" class="modal">
+
+        <div id="formteste">
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <form name="meu_form">
+
+                <h1>Fale Conosco</h1>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nomeid" placeholder="Digite seu nome aqui" required="required" name="nome" />
+
+                <br>
+
+                <label for="fone">Fone</label>
+                <input type="number" id="foneid" placeholder="(xx) xxxx-xxxx" name="fone" />
+
+                <br>
+
+                <label for="email">Email</label>
+                <input type="email" id="emailid" placeholder="example@gmail.com" name="email" />
+
+
+                <textarea placeholder="Deixe sua opnião"></textarea>
+
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+            </form>
+        </div>
+    </div>
+    <!-- MODAL -->
+
+    <main>
+
+    
+        <article>
+            <div id="linha1">
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio1">
+                    <img src="./imagens/BananaComChocolate.jpeg" alt="">
+                </a>
+
+<!-- MODAL -->
+
+                <div id="cardapio1">
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+
+                        <h1 class="titulo_cardapio">Barão von Strucker (Panqueca de Banana com Chocolate)</h1>
+                        <img src="./imagens/BananaComChocolate.jpeg" alt="">
+
+                        <p class="cardapio_p">R$ 14,00</p>
+                        <p class="paragraph">Ingredientes:</p>
+                        <p class="paragraph">banana, leite, açúcar, farinha de trigo, ovo, leite condensado, manteiga, achocolatado e morango</p>
+
+            
+                        </form>
+                    </div>
+                </div>
+
+
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio2">
+                <img src="./imagens/canela.jpeg" alt="">
+                </a>
+
+                <div id="cardapio2">
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+    
+                        <h1 class="titulo_cardapio">Venom (Panqueca de Banana com Canela)</h1>
+                        <img src="./imagens/canela.jpeg" alt="">
+                        <p class="cardapio_p">R$ 12,00</p>
+                        <p class="paragraph">Ingredientes:</p>
+                        <p class="paragraph">Farinha de trigo, leite, ovo, Sal, manteiga, banana e Canela</p>  
+                
+                        </form>
+                    </div>
+                </div>
+
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio3">
+                <img src="./imagens/ChocolateComMorango.jpeg" alt="">
+                </a>
+
+                <div id="cardapio3">
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+    
+                        <h1 class="titulo_cardapio">Homem Formiga (Panqueca de Chocolate Com Morango)</h1>
+                        <img src="./imagens/ChocolateComMorango.jpeg" alt="">  
+                        <p class="cardapio_p">R$ 15,00</p>
+                        <p class="paragraph">Ingredientes:</p>
+                        <p class="paragraph"> ovos, farinha de trigo, leite, morango, chocolate meio amargo, açúcar e cobertura para sorvete sabor chocolate</p>                
+                
+                        </form>
+                    </div>
+                </div>
+
+<!-- MODAL -->
+
+            </div>
+
+            <div id="linha2">
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio4">
+                    <img src="./imagens/panqueca-de-escarola-com-queijo-branco.jpg" alt="">
+                </a>
+
+<!-- MODAL -->
+
+                <div id="cardapio4">
+
+                    <div id="cardapio4"></div>
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+
+                        <h1 class="titulo_cardapio">Hulk (Panqueca de Escarola com Queijo)</h1>
+                        <img src="./imagens/panqueca-de-escarola-com-queijo-branco.jpg" alt="">
+
+                        <p class="cardapio_p">R$ 14,00</p>
+                        <p class="paragraph">Ingredientes:</p>
+                        <p class="paragraph"> ovo, oleo, sal, sazón para massas, dente de alho, salsa, farinha de trigo, leite, Queijo ralado, Escarola, mussarela, molho de tomate</p>
+           
+                        </form>
+                    </div>
+                </div>
+
+
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio5">
+                <img src="./imagens/CarneMoidaComPalmito.jpeg" alt="">
+                </a>
+
+                <div id="cardapio5">
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+    
+                        <h1 class="titulo_cardapio">Dr. Estranho (Panqueca de Carne Moida Com Palmito)</h1>
+                        <img src="./imagens/CarneMoidaComPalmito.jpeg" alt="">
+                        <p class="cardapio_p">R$ 15,00</p>
+                        <p class="paragraph">Ingredientes:</p>
+                        <p class="paragraph">Farinha de trigo, ovos, sal, açúcar, milho verde, palmito e molho de tomate</p>
+              
+                        </form>
+                    </div>
+                </div>
+
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio6">
+                <img src="./imagens/strogonofedecarne.jpeg" alt="">
+                </a>
+
+                <div id="cardapio6">
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+    
+                        <h1 class="titulo_cardapio">Shuri (Panqueca de Strogonoff de carne)</h1>
+                        <img src="./imagens/strogonofedecarne.jpeg" alt="">  
+                        <p class="cardapio_p">R$ 18,00</p>
+                        <p class="paragraph">Ingredientes:</p>
+                        <p class="paragraph">farinha de trigo, ovos, coxão mole, margarina, cebola, tomates, caldo knorr sabor picanha, cominho e creme de leite</p>
+                
+                
+                        </form>
+                    </div>
+                </div>
+
+            <div id="linha3">
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio7">
+                    <img src="./imagens/ChaGelado.jpg" alt="">
+                </a>
+
+                <!-- MODAL -->
+
+                <div id="cardapio7">
+
+                    <div id="cardapio7"></div>
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+
+                        <h1 class="titulo_cardapio">Chá Gelado</h1>
+                        <img src="./imagens/ChaGelado.jpg" alt="">
+
+                        <p class="cardapio_p">R$ 6,00</p>
+                        
+            
+                        </form>
+                    </div>
+                </div>
+
+
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio8">
+                <img src="./imagens/refrigerantes.jpg" alt="">
+                </a>
+
+                <div id="cardapio8">
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+    
+                        <h1 class="titulo_cardapio">Refrigerantes</h1>
+                        <img src="./imagens/refrigerantes.jpg" alt="">
+                        <p class="cardapio_p">R$ 6,00</p>
+                        <p class="paragraph">Refrigerantes:</p>
+                        <p class="paragraph">Coca-Cola, Coca-Cola Zero, Pepsi, Guaraná Antartica, Sprite, Fanta</p>
+
+    
+                
+                        </form>
+                    </div>
+                </div>
+
+                <iframe id="contate-nos" scrolling="no" frameborder="0"></iframe>
+                <a href="#cardapio9">
+                <img src="./imagens/h2o.jpg" alt="">
+                </a>
+
+                <div id="cardapio9">
+
+                    <div id="formteste">
+                        <a href="#fechar" title="Fechar" class="fechar">x</a>
+                        <form name="meu_form" id="cardapio">
+    
+                        <h1 class="titulo_cardapio">H2O</h1>
+                        <img src="./imagens/h2o.jpg" alt="">  
+                        <p class="cardapio_p">R$ 5,00</p>
+                
+                
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </article>
+    </main>
+
+    <footer>
+        <div class="rodape" id="esquerdo">
+            <img src="./imagens/logotest.png" alt="">
+            <h2>Pancake Heroes</h2>
+        </div>
+        <div class="rodape">
+            <p>Criado e Desenvolvido por André Henrique, Eduardo Porto e Lucas Vasconcelos</p>
+            <p>Todos os direitos reservados &#9400; <br>
+            Pancake Heroes</p>
+        </div>
+        <div class="rodape" id="direito">
+            <a href="https://www.facebook.com/Pancake-Heroes-102611384897148/" target="_blank">
+                <img src="./imagens/facebook.svg" alt="">
+            </a>
+            <a href="https://twitter.com/HeroesPancake" target="_blank">
+                <img src="./imagens/twitter.svg" alt="">
+            </a>
+            <a href="https://www.instagram.com/pancakeheroes/" target="_blank">
+                <img src="./imagens/instagram.svg" alt="">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+

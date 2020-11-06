@@ -1,0 +1,801 @@
+@font-face {
+    font-family: 'RunaroundKidDemoRegular-Rx33';
+    src: url('./fontes/RunaroundKidDemoRegular-Rx33.otf') /*Para os demais navegadores*/;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arial-black';
+    src: url('./fontes/arial-black.ttf'); /*os demais navegadores*/
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Global-mL1qm';
+    src: url('./fontes/Global-mL1qm.ttf') /*Para os demais navegadores*/;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:hover {
+    color: rgb(223, 33, 33);
+    text-shadow: 5px 5px 5px black;
+}
+
+p{
+    color: rgb(253,231, 173);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'arial-black';
+    color: white;
+}
+
+body{
+    background-color:rgb(88,46,24) ;
+    font-family: 'Global-mL1qm';
+    font-size: 20px;
+}
+
+body>h1, h2, h3, h4, h5, h6{
+    margin-left: 30px;
+}
+
+a {
+    text-decoration:none ;
+    color: rgb(253,231,172)
+}
+
+#barrasuperior {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(167, 105, 46);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-family: 'arial-black';
+}
+
+#barrasuperior>div {
+    float: left;
+}
+
+#barrasuperior>div>p {
+    color: white;
+    line-height: 32px;
+    font-size: 13px;
+}
+
+#barrasuperior>div>img {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+#localizacaosuperior {
+    width: 320px;
+}
+
+#gps {
+    margin: 15px 15px 0px 50px;
+}
+
+#contatosuperior {
+    width: 300px;
+}
+
+#telefone {
+    margin: 15px 15px 0px 150px;
+}
+
+#horariofuncionamento {
+    width: 500px;
+}
+
+#relogio {
+    border-radius: 15px;
+    margin: 15px 15px 0px 50px;
+}
+
+#face {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 15px 15px 0px 50px;
+}
+
+#twitter {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 15px 15px 0px 0px;
+}
+
+#insta {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 15px 15px 0px 0px;
+}
+
+/* HEADER - CABEÇALHO */
+header {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(167, 105, 46);
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+header>a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 300px;
+    height: 150px;
+    background-color: transparent;
+    float: left;
+    margin: 20px 0px 0px 50px;
+}
+
+#logo>img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+#logo>h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: 5px 5px 5px black;
+}
+
+#logo>h1{
+    color: rgb(223, 33, 33);
+}
+
+nav {
+    width: 600px;
+    height: 100px;
+    float: right;
+    margin: 50px 0px 0px 0px;
+    font-size: 30px;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul>li {
+    display: inline;
+    margin: 0px 10px;
+    color: rgb(223, 33, 33);
+}
+
+#contate-nos {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    display: none;
+    position: fixed;
+    z-index: 99;
+    width: 500px;
+    height: 465px;
+    border-radius: 15px;
+}
+
+form {
+    font-size: 20px;
+    background-color: rgb(167, 105, 46);
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(253, 231, 173);
+}
+
+input,
+textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: rgb(223, 33, 33);
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: rgb(223, 33, 33);
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 330px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal>div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+}
+/* MAIN - PRINCIPAL */
+main{
+    height: 970px;
+    width: 100%;
+    background-color: rgb(253,231, 173);
+    margin-bottom: 20px;
+    border-radius: 15px ;
+}
+
+
+/* ARTICLE */
+article{
+    width: 98%;
+    height: 700px;
+    background-color: rgb(253,231, 173);
+    margin: 0px 1%;
+    float: left;
+}
+
+
+#linha1>a>img{
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    
+}
+
+#linha1>img{
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    
+}
+
+#linha1>a>img:hover{
+    box-shadow: 3px 3px 3px black;
+}
+
+.tabela{
+    margin: 0px;
+}
+
+#cardapio {
+    font-size: 20px;
+    background-color: rgb(167, 105, 46);
+    max-width: 800px;
+    border-radius: 15px;
+}
+
+.cardapio_p{
+    font-family: 'RunaroundKidDemoRegular-Rx33';
+    font-size: 38px;
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: red;
+    text-shadow: 5px 5px 5px black;
+}
+
+.cardapio_p{
+    font-family: 'RunaroundKidDemoRegular-Rx33';
+    border-radius: 15px;
+    margin-left: 320px;
+    background-color: transparent;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+.paragraph{
+    font-family: 'Global-mL1qm';
+    margin-left: 15px;
+    color: red;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.titulo_cardapio{
+    font-size: 27px;
+    font-family: 'Global-mL1qm';
+    color: white;
+}
+
+#cardapio>img{
+    font-family: 'RunaroundKidDemoRegular-Rx33';
+    font-size: 50px;
+    background-color: blue;
+    border-radius: 15px;
+    height: 150px;
+    width: 250px;
+    margin-left: 275px;
+}
+
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#cardapio1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio1:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio1>div {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin: 5% auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+
+#cardapio2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio2:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio2>div {
+    height: 480px;
+    width: 800px;
+    position: relative;
+    margin: 5% auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+#cardapio3 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio3:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio3>div {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin: 5% auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+#linha2>a>img{
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    
+}
+
+#linha2>img{
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    
+}
+
+#linha2>a>img:hover{
+    box-shadow: 3px 3px 3px black;
+}
+
+#cardapio4 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio4:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio4>div {
+    height: 520px;
+    width: 800px;
+    position: relative;
+    margin: -250px auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+
+#cardapio5 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio5:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio5>div {
+    height: 480;
+    width: 800px;
+    position: relative;
+    margin: 70px auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+#cardapio6 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio6:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio6>div {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin: 60px auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+#linha3>a>img{
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    
+}
+
+#linha3>img{
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    
+}
+
+#linha3>a>img:hover{
+    box-shadow: 3px 3px 3px black;
+}
+
+#cardapio7 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio7:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio7>div {
+    height: 350px;
+    width: 800px;
+    position: relative;
+    margin: -120px auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+#cardapio8 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio8:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio8>div {
+    height: 495px;
+    width: 800px;
+    position: relative;
+    margin: 60px auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+#cardapio9 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#cardapio9:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#cardapio9>div {
+    height: 350px;
+    width: 800px;
+    position: relative;
+    margin: 110px auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+}
+
+
+/* FOOTER - RODAPÉ */
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(167, 105, 46);
+    border-radius: 20px;
+    clear: both;
+}
+
+.rodape {
+    width: 32%;
+    height: 150px;
+    background-color: rgb(68, 66, 67);
+    float: left;
+    margin: 25px .6%;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+
+/* Rodapé Esquerdo */
+
+#esquerdo>img {
+    width: 150px;
+    float: left;
+    border-radius: 20px;
+}
+
+#esquerdo>h2 {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 10%;
+}
+
+
+/* Rodapé Direito */
+
+#direito {
+    float: left;
+}
+
+#direito>img {
+    width: 25%;
+    float: left;
+    margin: 15px 0px 0px 0px;
+}
+
+#direito>a>img {
+    width: 25%;
+    float: left;
+    margin: 23px 0px 0px 25px;
+}

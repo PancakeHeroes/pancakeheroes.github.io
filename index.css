@@ -1,0 +1,1200 @@
+@font-face {
+    font-family: 'RunaroundKidDemoRegular-Rx33';
+    src: url('./fontes/RunaroundKidDemoRegular-Rx33.otf');/*Para os demais navegadores*/
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arial-black';
+    src: url('./fontes/arial-black.ttf'); /*os demais navegadores*/
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Global-mL1qm';
+    src: url('./fontes/Global-mL1qm.ttf');/*Para os demais navegadores*/
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:hover {
+    color: rgb(223, 33, 33);
+    text-shadow: 5px 5px 5px black;
+}
+
+
+p {
+    color: rgb(253, 231, 173);
+}
+
+.titulo,
+.titulo2,
+.titulo3,
+h4,
+h5,
+h6 {
+    font-size:smaller;
+    font-family: 'arial-black';
+    color: white;
+}
+
+body {
+    background-color: rgb(88, 46, 25);
+    font-family: 'Global-mL1qm';
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Global-mL1qm';
+    text-decoration: none;
+    color: rgb(253, 231, 173);
+}
+
+li>a {
+    color: rgb(253, 231, 173);
+}
+
+li>a:hover {
+    color: rgb(223, 33, 33);
+    text-shadow: 5px 5px 5px black;
+}
+
+
+/* BARRA SUPERIOR */
+
+#barrasuperior {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(167, 105, 46);
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+#barrasuperior>div {
+    float: left;
+}
+
+#barrasuperior>div>p {
+    color: white;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: 'arial-black';
+}
+
+#barrasuperior>div>img {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+#localizacaosuperior {
+    width: 320px;
+}
+
+#gps {
+    margin: 15px 15px 0px 50px;
+}
+
+#contatosuperior {
+    width: 300px;
+}
+
+#telefone {
+    margin: 15px 15px 0px 150px;
+}
+
+#horariofuncionamento {
+    width: 500px;
+}
+
+#relogio {
+    border-radius: 15px;
+    margin: 15px 15px 0px 50px;
+}
+
+#face {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 15px 15px 0px 50px;
+    
+}
+
+
+#twitter {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 15px 15px 0px 0px;
+}
+
+#insta {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 15px 15px 0px 0px;
+}
+
+
+/* FIM - BARRA SUPERIOR */
+
+
+/* HEADER - CABEÇALHO */
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(167, 105, 46);
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+#logo {
+    width: 300px;
+    height: 150px;
+    background-color: transparent;
+    float: left;
+    margin: 20px 0px 0px 50px;
+}
+
+#logo>img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+#logo>h1 {
+    font-size: 31px;
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: 4px 4px 4px black;
+}
+
+#logo>h1 {
+    color: rgb(223, 33, 33);
+}
+
+
+
+nav {
+    width: 600px;
+    height: 100px;
+    float: right;
+    margin: 50px 0px 0px 0px;
+    font-size: 30px;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul>li {
+    display: inline;
+    margin: 0px 10px;
+    color: rgb(223, 33, 33);
+}
+
+#contate-nos {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    display: none;
+    position: fixed;
+    z-index: 99;
+    width: 500px;
+    height: 465px;
+    border-radius: 15px;
+}
+
+form {
+    font-size: 20px;
+    background-color: rgb(167, 105, 46);
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(253, 231, 173);
+    
+}
+
+input,
+textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: rgb(223, 33, 33);
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: rgb(223, 33, 33);
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 330px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal>div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: rgb(253, 231, 173);
+    border-radius: 20px;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+}
+
+
+/* MAIN - PRINCIPAL */
+
+main {
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(253, 231, 173);
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+
+/* SECTION - SEÇÃO */
+
+section {
+    width: 95%;
+    height: 500px;
+    background-color: rgb(253, 231, 173);
+    margin: 0px 1%;
+    float: left;
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    width: 1092px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.fade>img {
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* ASIDE - BARRA LATERAL */
+
+aside {
+    width: 28%;
+    height: 680px;
+    margin: 10px 1%;
+    float: left;
+}
+
+#barralateral {
+    width: 98%;
+    height: 670px;
+    background-color: rgb(167, 105, 46);
+    float: left;
+    margin: 10px 5px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px;
+}
+
+#barralateral>img {
+    width: 25%;
+}
+
+#barralateral>h1 {
+    margin-left: 15px;
+}
+
+#barralateral>h2 {
+    margin-left: 10px;
+}
+
+#barralateral>h3 {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#barralateral>p {
+    font-size: 19px;
+    margin-left: 15px;
+    font-family: 'Global-mL1qm';
+}
+
+#cobertura {
+    height: 30%;
+}
+
+
+/* ARTICLE */
+
+article {
+    width: 68%;
+    height: 700px;
+    background-color: rgb(253, 231, 173);
+    margin: 0px 1%;
+    float: left;
+}
+
+#local {
+    border-radius: 15px;
+}
+
+#local:hover {
+    box-shadow: 2px 2px 10px;
+}
+
+.conteudo {
+    width: 888.3px;
+    height: 320px;
+    background-color: rgb(167, 105, 46);
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+}
+
+.conteudo>img {
+    width: 25%;
+    float: left;
+    margin: 0px 0px;
+}
+
+#conteudo1>img {
+    width: 4%;
+    float: left;
+    margin-top: 13px;
+}
+
+.conteudo>h2 {
+    line-height: 50px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.conteudo>p {
+    text-align: justify;
+    margin: 0px 30px;
+    font-family: 'arial-black';
+    font-size: 20px;
+}
+
+
+#conteudo2>img {
+    width: 27%;
+    float: left;
+    margin: 0px 0px 0px 302.016px
+}
+
+
+/* FOOTER - RODAPÉ */
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(167, 105, 46);
+    border-radius: 20px;
+    clear: both;
+}
+
+.rodape {
+    width: 32%;
+    height: 150px;
+    background-color: rgb(68, 66, 67);
+    float: left;
+    margin: 25px .6%;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+
+/* Rodapé Esquerdo */
+
+#esquerdo>img {
+    width: 150px;
+    float: left;
+    border-radius: 20px;
+    
+}
+
+#esquerdo>h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/* Rodapé Direito */
+
+#direito {
+    float: left;
+}
+
+#direito>a>img {
+    width: 25%;
+    float: left;
+    margin: 23px 0px 0px 25px;
+}
+
+
+/* RESPONSIVO */
+
+
+
+
+
+@media (max-width:600px) {
+    @font-face {
+        font-family: 'RunaroundKidDemoRegular-Rx33';
+        src: url('./fontes/RunaroundKidDemoRegular-Rx33.otf');/*Para os demais navegadores*/
+        
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Global-mL1qm';
+        src: url('./fontes/Global-mL1qm.ttf');/*Para os demais navegadores*/
+        
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    a:hover {
+        color: rgb(223, 33, 33);
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    
+    p {
+        color: rgb(253, 231, 173);
+    }
+    
+    .titulo,
+    .titulo2,
+    .titulo3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'arial-black';
+        color: white;
+    }
+    
+    body {
+        background-color: rgb(88, 46, 25);
+        font-family: 'Global-mL1qm';
+        font-size: 20px;
+    }
+    
+    a {
+        font-family: 'Global-mL1qm';
+        text-decoration: none;
+        color: rgb(253, 231, 173);
+    }
+    
+    li>a {
+        color: rgb(253, 231, 173);
+    }
+    
+    li>a:hover {
+        color: rgb(223, 33, 33);
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    
+    /* BARRA SUPERIOR */
+    
+    #barrasuperior {
+        display: none;
+    }
+    
+    #barrasuperior>div {
+        display: none;
+    }
+    
+    #barrasuperior>div>p {
+        display: none;
+    }
+    
+    #barrasuperior>div>img {
+        display: none;
+    }
+    
+    #localizacaosuperior {
+        display: none;
+    }
+    
+    #gps {
+        display: none;
+    }
+    
+    #contatosuperior {
+        display: none;
+    }
+    
+    #telefone {
+        display: none;
+    }
+    
+    #horariofuncionamento {
+        display: none;
+    }
+    
+    #relogio {
+        display: none;
+    }
+    
+    #face {
+        display: none;
+    }
+    
+    
+    #twitter {
+        display: none;
+    }
+    
+    #insta {
+        display: none;
+    }
+    
+    
+    /* FIM - BARRA SUPERIOR */
+    
+    
+    /* HEADER - CABEÇALHO */
+    
+    header {
+        height: 200px;
+        width: 100%;
+        background-color: rgb(167, 105, 46);
+        margin-bottom: 20px;
+        border-radius: 25px;
+    }
+    
+    #logo {
+        width: 35%;
+        height: 30%;
+        background-color: transparent;
+        float: left;
+        margin: 20px 0px 0px 50px;
+    }
+    
+    #logo>img {
+        width: 50%;
+        height: 90%;
+        display: block;
+        margin: auto;
+        border-radius: 15px;
+        margin-bottom: 0px;
+    }
+    
+    #logo>h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 0px;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    #logo>h1 {
+        color: rgb(223, 33, 33);
+    }
+    
+    
+    
+    nav {
+        width: 600px;
+        height: 100px;
+        float: right;
+        margin: 50px 0px 0px 0px;
+        font-size: 30px;
+    }
+    
+    nav>ul {
+        list-style: none;
+    }
+    
+    nav>ul>li {
+        display: inline;
+        margin: 0px 10px;
+        color: rgb(223, 33, 33);
+    }  
+
+    #contate-nos {
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        display: none;
+        position: fixed;
+        z-index: 99;
+        width: 500px;
+        height: 465px;
+        border-radius: 15px;
+    }
+    
+    form {
+        font-size: 20px;
+        background-color: rgb(167, 105, 46);
+        max-width: 500px;
+        border-radius: 15px;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        color: rgb(253, 231, 173);
+        
+    }
+    
+    input,
+    textarea {
+        width: 200px;
+        padding: 10px;
+        color: black;
+        margin-left: 20px;
+        margin-top: 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid;
+    }
+    
+    input:hover,
+    textarea:hover,
+    input:focus,
+    textarea:focus {
+        border-color: #000066;
+        box-shadow: 5px 0px 9px #FFFF00;
+        background-color: rgb(223, 33, 33);
+        color: black;
+        font-weight: bold;
+    }
+    
+    .enviar {
+        background-color: rgb(223, 33, 33);
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid;
+        color: black;
+    }
+    
+    textarea {
+        width: 330px;
+        height: 120px;
+        line-height: 20px;
+        max-width: 400px;
+    }
+    
+    form label {
+        margin-left: 20px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    
+    .modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 99999;
+        opacity: 0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+    }
+    
+    .modal:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .modal>div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 15px 20px;
+        background: rgb(253, 231, 173);
+        border-radius: 20px;
+    }
+    
+    .fechar {
+        position: absolute;
+        width: 30px;
+        right: -15px;
+        top: -20px;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 5px;
+        background: #ff4545;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #8d0000;
+    }
+    
+    
+    /* MAIN - PRINCIPAL */
+    
+    main {
+        height: 1200px;
+        width: 100%;
+        background-color: rgb(253, 231, 173);
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    
+    
+    /* SECTION - SEÇÃO */
+    
+    section {
+        width: 95%;
+        height: 500px;
+        background-color: rgb(253, 231, 173);
+        margin: 0px 1%;
+        float: left;
+    }
+    
+    * {
+        box-sizing: border-box
+    }
+    
+    
+    /* Slideshow container */
+    
+    .slideshow-container {
+        width: 1092px;
+        position: relative;
+        margin: auto;
+    }
+    
+    
+    /* Hide the images by default */
+    
+    .mySlides {
+        display: none;
+    }
+    
+    
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    
+    /* Position the "next button" to the right */
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    
+    
+    /* Fading animation */
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    .fade>img {
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    
+    /* ASIDE - BARRA LATERAL */
+    
+    aside {
+        width: 28%;
+        height: 680px;
+        margin: 10px 1%;
+        float: left;
+    }
+    
+    #barralateral {
+        width: 98%;
+        height: 670px;
+        background-color: rgb(167, 105, 46);
+        float: left;
+        margin: 10px 5px;
+        border-radius: 30px;
+        box-shadow: 2px 2px 10px;
+    }
+    
+    #barralateral>img {
+        width: 25%;
+    }
+    
+    #barralateral>h1 {
+        margin-left: 15px;
+    }
+    
+    #barralateral>h2 {
+        margin-left: 10px;
+    }
+    
+    #barralateral>h3 {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    #barralateral>p {
+        font-size: 18px;
+        margin-left: 15px;
+        font-family: 'arial-black';
+    }
+    
+    #cobertura {
+        height: 30%;
+    }
+    
+    
+    /* ARTICLE */
+    
+    article {
+        width: 68%;
+        height: 700px;
+        background-color: rgb(253, 231, 173);
+        margin: 0px 1%;
+        float: left;
+    }
+    
+    #local {
+        border-radius: 15px;
+    }
+    
+    #local:hover {
+        box-shadow: 2px 2px 10px;
+    }
+    
+    .conteudo {
+        width: 98%;
+        height: 320px;
+        background-color: rgb(167, 105, 46);
+        margin: 15px auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px;
+    }
+    
+    .conteudo>img {
+        width: 25%;
+        float: left;
+        margin: 0px 0px;
+    }
+    
+    #conteudo1>img {
+        width: 4%;
+        float: left;
+        margin-top: 13px;
+    }
+    
+    .conteudo>h2 {
+        line-height: 50px;
+        margin-left: 15px;
+    }
+    
+    .conteudo>p {
+        text-align: justify;
+        margin: 0px 30px;
+        font-family: 'arial-black';
+        font-size: 25px;
+    }
+    
+    #conteudo2>img {
+        width: 20%;
+        float: right;
+        margin: 50px 30px;
+    }
+    
+    
+    /* FOOTER - RODAPÉ */
+    
+    footer {
+        height: 200px;
+        width: 100%;
+        background-color: rgb(167, 105, 46);
+        border-radius: 20px;
+        clear: both;
+    }
+    
+    .rodape {
+        width: 32%;
+        height: 150px;
+        background-color: rgb(68, 66, 67);
+        float: left;
+        margin: 25px .6%;
+        text-align: center;
+        color: white;
+        border-radius: 20px;
+    }
+    
+    
+    /* Rodapé Esquerdo */
+    
+    #esquerdo>img {
+        width: 150px;
+        float: left;
+        border-radius: 20px;
+    }
+    
+    #esquerdo>h2 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    
+    /* Rodapé Direito */
+    
+    #direito {
+        float: left;
+    }
+    
+    #direito>a>img {
+        width: 25%;
+        float: left;
+        margin: 23px 0px 0px 25px;
+    }
+
+}
