@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 
 body{
     background-color:rgb(88,46,24) ;
-    font-family: 'arial-black';
+    font-family: 'Global-mL1qm';
     font-size: 20px;
 }
 
@@ -426,7 +426,6 @@ form label {
 }
 
 #cardapio1>div {
-    height: 500px;
     width: 800px;
     position: relative;
     margin: 5% auto;
@@ -458,7 +457,6 @@ form label {
 }
 
 #cardapio2>div {
-    height: 480px;
     width: 800px;
     position: relative;
     margin: 5% auto;
@@ -489,14 +487,15 @@ form label {
 }
 
 #cardapio3>div {
-    height: 500px;
     width: 800px;
     position: relative;
-    margin: 5% auto;
+    margin: 3% auto;
     padding: 15px 20px;
     background: rgb(253, 231, 173);
     border-radius: 20px;
 }
+
+
 
 #linha2>a>img{
     width: 420px;
@@ -542,10 +541,9 @@ form label {
 }
 
 #cardapio4>div {
-    height: 520px;
     width: 800px;
     position: relative;
-    margin: -250px auto;
+    margin: 0px auto;
     padding: 15px 20px;
     background: rgb(253, 231, 173);
     border-radius: 20px;
@@ -574,10 +572,9 @@ form label {
 }
 
 #cardapio5>div {
-    height: 480;
     width: 800px;
     position: relative;
-    margin: 70px auto;
+    margin: 50px auto;
     padding: 15px 20px;
     background: rgb(253, 231, 173);
     border-radius: 20px;
@@ -605,7 +602,6 @@ form label {
 }
 
 #cardapio6>div {
-    height: 500px;
     width: 800px;
     position: relative;
     margin: 60px auto;
@@ -658,10 +654,9 @@ form label {
 }
 
 #cardapio7>div {
-    height: 350px;
     width: 800px;
     position: relative;
-    margin: -120px auto;
+    margin: 60px auto;
     padding: 15px 20px;
     background: rgb(253, 231, 173);
     border-radius: 20px;
@@ -689,7 +684,6 @@ form label {
 }
 
 #cardapio8>div {
-    height: 495px;
     width: 800px;
     position: relative;
     margin: 60px auto;
@@ -720,7 +714,6 @@ form label {
 }
 
 #cardapio9>div {
-    height: 350px;
     width: 800px;
     position: relative;
     margin: 110px auto;
