@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 
 body{
     background-color:rgb(88,46,24) ;
-    font-family: 'Global-mL1qm';
+    font-family: 'arial-black';
     font-size: 20px;
 }
 
@@ -374,7 +374,7 @@ article{
 }
 
 .paragraph{
-    font-family: 'Global-mL1qm';
+    font-family: 'arial-black';
     margin-left: 15px;
     color: red;
     font-size: 25px;
@@ -383,7 +383,7 @@ article{
 
 .titulo_cardapio{
     font-size: 27px;
-    font-family: 'Global-mL1qm';
+    font-family: 'arial-black';
     color: white;
 }
 
