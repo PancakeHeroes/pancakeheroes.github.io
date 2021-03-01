@@ -1,5 +1,3 @@
-@media (max-width:1366px) {
-
 @font-face {
     font-family: 'RunaroundKidDemoRegular-Rx33';
     src: url('./fontes/RunaroundKidDemoRegular-Rx33.otf');/*Para os demais navegadores*/
@@ -616,7 +614,6 @@ footer {
     margin: 23px 0px 0px 25px;
 }
 
-}
 
 
 /* RESPONSIVO */
